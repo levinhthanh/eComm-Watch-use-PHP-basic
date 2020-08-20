@@ -1,0 +1,54 @@
+.tele_mail{
+    background-color: #303032;
+    color: white;
+    width: 100%;
+}
+
+/* Telephone number */
+
+.teleMail1{
+    display: flex;
+    position: relative;
+    width: 20%;
+    margin-left: 9%;
+    padding: 0.5%;
+}
+#teleIcon{
+    position: absolute;
+    top: 26%;
+    left: 5%;
+}
+#teleNum{
+    margin-left: 11%;
+}
+
+/* Email */
+
+.teleMail2{
+    display: flex;
+    position: relative;
+    width: 20%;
+    padding: 0.5%;
+}
+#letterIcon{
+    position: absolute;
+    top: 26%;
+    left: 4%;
+}
+#email{
+    margin-left: 11%;
+}
+
+/* Hi user */
+.helloUser{
+    width: 50%;
+    padding: 0.5%;
+    padding-right: 5%;
+    text-align: right;
+}
+
+
+.teleMail1:hover,
+.teleMail2:hover{
+    background-color: darkgoldenrod;
+}

@@ -1,0 +1,143 @@
+/* @media screen and (min-width: 1024px){ */
+    
+.search{
+    width: 100vw;
+    height: 6vw;
+    padding: 1% 0%;
+}
+
+/*  Logo  */
+.logo{
+    width: 30%;
+    text-align: center;
+}
+#logo{
+    height: 90%;
+    margin-top: 0.5%;
+}
+#btn:hover, #show:hover{
+    cursor: pointer;
+}
+
+/*  Search products  */
+.search_product{
+    width: 40%;
+    height: auto;
+    margin: 1.5% 0%;
+    padding: 0.5%;
+    border: solid 0.1rem #3B170B;
+    position: relative;
+}
+#show{
+    padding-top: 0.5%;
+    padding-left: 3%;
+    width: 8%;
+
+}
+#inputProduct{
+    padding: 1%;
+    padding-left: 2%;
+    border-left: solid 1px grey;
+    width: 81%;
+}
+input:focus{
+    outline: none;
+}
+#btn-cover{
+    position: relative;
+    width: 7%;
+    height: auto;
+}
+#btnImg{
+    width: 65%;
+    height: auto;
+}
+#btn{
+    position: absolute;
+    top:  0;
+    left: 0;
+    width: 2rem;
+    height: 2rem;
+    background: none;
+}
+
+/*  Register and List products  */
+.others{
+    width: 30%;
+    position: relative;
+}
+
+.logIn{
+    width: 25%;
+    position: absolute;
+    top:  25%;
+    right: 50%;
+    text-align: center;
+}
+.changePass{
+    width: 25%;
+    position: absolute;
+    top:  25%;
+    right: 30%;
+    text-align: center;
+}
+.register{
+    width: 25%;
+    position: absolute;
+    top:  25%;
+    right: 30%;
+    text-align: center;
+}
+.logOut{
+    width: 25%;
+    position: absolute;
+    top:  25%;
+    right: 50%;
+    text-align: center;
+}
+.productsList{
+    width: 25%;
+    position: absolute;
+    top:  25%;
+    right: 10%;
+    text-align: center;
+}
+
+#login,
+#box{
+    margin-bottom: 0.7rem;
+    color: #3B170B;
+}
+#logout{
+    margin-bottom: 0.7rem;
+    color: #3B170B;
+}
+
+a{
+    text-decoration: none;
+    color: #3B170B;
+    font-size: 1.1vw;
+}
+#count_in_box{
+    position: absolute;
+    color: darkred;
+    background-color: darkorange;
+    top: -0.5vw;
+    right: 2vw;
+    border: solid darkgray 0.05vw;
+    font-weight: bold;
+    border-radius: 50%;
+    width: 1vw;
+}
+
+.drop_search_list{
+    display: none;
+    width: 11vw;
+    height: 10vw;
+    background-color: #303032;
+    top: 3vw;
+    left: 1vw;
+    position: absolute;
+    overflow: auto;
+    z-index: 1;
+}

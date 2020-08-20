@@ -1,0 +1,20 @@
+@import url("tele_mail.css");
+@import url("search.css");
+@import url("main.css");
+@import url("toolbar.css");
+@import url("footer.css");
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-weight: 300;
+    font-size: 1.2vw ;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+#btn_buy{
+    padding: 0.3vw 3vw;
+    background-color: darkorange;
+    color: white;
+    margin: auto;
+}

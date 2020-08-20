@@ -1,0 +1,56 @@
+.footer{
+    border-top: solid 0.3vw darkorange;
+    width: 100vw;
+    height: 20vw;
+    display: flex;
+    background-color: black;
+   padding-top: 1.5vw;
+}
+.footer_left{
+    width: 35vw;
+    margin-left: 8vw;
+    
+}
+.footer_center{
+    width: 17vw;
+    margin-left: 3vw;
+}
+.footer_right{
+    width: 25vw;
+    margin-left: 3vw;
+}
+#label_footer{
+    color: white;
+    border-bottom: solid 0.1vw darkgray;
+    padding: 1vw 0;
+    display: block;
+    margin-bottom: 0.8vw;
+}
+#label_footer_content{
+    color: white;
+    display: block;
+    margin-bottom: 0.5vw;
+
+}
+#label_footer_left{
+    color: white;
+
+}
+#label_footer_right{
+    color: yellow;
+    
+}
+#label_footer_bottom{
+    color: wheat;
+    display: block;
+    margin-top: 2vw;
+    font-size: 1.4vw;
+    font-style: italic;
+}
+.icon_footer{
+    display: flex;
+    color: white;
+}
+#icon_footer{
+    width: 1.5vw;
+}
